@@ -28,7 +28,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-           danilcavazim/rotten-potatoes:latest
+           danilocavazim/rotten-potatoes:latest
            danilocavazim/rotten-potatoes:${{github.run_number}}
            
             
